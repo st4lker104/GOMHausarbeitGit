@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>GOM Hausarbeit Startseite</title>
+		<title>Startseite</title>
 
 <!-- ANFANG LADEN DER BENOETIGTEN JAVASCRIPTE -->
   <script src="js/modernizr-2.7.1.min.js"></script>
@@ -10,6 +10,13 @@
   <script src="js/mobile_nav.js"></script>
 <!-- ENDE LADEN DER BENOETIGTEN JAVASCRIPTE -->
   
+
+<!-- ANFANG EINBINDEN DER BENOETIGTEN CSS DATEIEN -->
+		<link rel="stylesheet" href="style/phone.css" media="screen and (max-width:867px)"/>
+		<link href="style/desktop.css" rel="stylesheet" media="screen and (min-width:1153px)" type="text/css" />
+		<link rel="stylesheet" media="screen and (min-width: 868px) and (max-width: 1152px)" href="style/tablet.css" type="text/css" />
+<!-- ENDE EINBINDEN DER BENOETIGTEN CSS DATEIEN -->
+
 	</head>
 
 	<body>
@@ -70,9 +77,9 @@
                     
                 <div class="header_right">
                     <div id="flags">
-                       <a href="#"><img src="img/flags/germany.png" alt="german"/></a>							                 	   <a href="#"><img src="img/flags/us.png" alt="english"/></a>
-                       <a href="#"><img src="img/flags/sweden.png" alt="swedish"/></a>
-                       <a href="#"><img src="img/flags/netherlands.png" alt="dutch"/></a>
+                       <a href="#"><img src="img/socialmedia/Facebook.png" alt="facebook"/></a>							    
+                       <a href="#"><img src="img/socialmedia/Rss.png" alt="rss"/></a>
+                       <a href="#"><img src="img/socialmedia/Twitter.png" alt="twitter"/></a>
                     </div><!-- id: flags -->
                 </div> <!-- c: header_right -->
                 
@@ -86,7 +93,7 @@
  <!-- ANFANG LAST UPDATED ISSUES -->
                 
                 <div class="content" id="lastUpdates"> 
-                	<div class="boxHeadline">LATEST ISSUES</div> <!-- c: contentHeadline -->
+                	<div class="boxHeadline">LATEST ISSUES</div>
                 		<div class="lastUpdateRow" id="row1">
                     		<img src="img/ComicCover/Kevin.jpg" alt="KevinKeller" />
                             	<p class="title">Kevin Keller</p>
@@ -117,16 +124,16 @@
 				<div class="content" id="news"> 
                     
                     <div class="news_meldung">
-                        <div class="news_headline white">475.000 Covers uploaded!</div>
-                        <div class="news_text"><img src="img/ComicCover/coverNews.jpg" alt="CoverNews" />The 475,000th cover was uploaded recently to the 	GCD!
+                        <div class="news_headline white"><h2>475.000 Covers uploaded!</h2></div>
+                        <div class="news_text"><img src="img/ComicCover/coverNews.jpg" alt="CoverNews" /><p>The 475,000th cover was uploaded recently to the 	GCD!
     Check out the cover which is from Una Criada Estupenda #15 (Editorial Novaro, 1968 Series), a series from Mexico.
-    Take a look at our international statistics to see what else the GCD's been up to.
+    Take a look at our international statistics to see what else the GCD's been up to.</p>
                         </div><!-- c: news_text -->
                     </div><!-- c: news_meldung -->
     
     				<div class="news_meldung2">
-                        <div class="news_headline straight white">Beta Search Capability</div>
-                        <div class="news_text">We have a new search capability in beta right now, and we need your help to run it through its paces. This cool new feature searches the different data objects at the same time and allows easier combination of different search terms. We already identified (and starting working through) some aspects that are not quite behaving as we would like, but we still need to hear from you. Please use on of the contact points on the left or join our mailing lists to share your comments, ask questions or provide suggestions. 
+                        <div class="news_headline straight white"><h2>Beta Search Capability</h2></div>
+                        <div class="news_text"><p>We have a new search capability in beta right now, and we need your help to run it through its paces. This cool new feature searches the different data objects at the same time and allows easier combination of different search terms. We already identified (and starting working through) some aspects that are not quite behaving as we would like, but we still need to hear from you. Please use on of the contact points on the left or join our mailing lists to share your comments, ask questions or provide suggestions. </p>
                         </div> <!-- c: news_text -->
                     </div><!-- c: news_meldung -->
               		
@@ -142,15 +149,14 @@
 
 <!-- ENDE NEWS -->
 
-
-
 <div id="searchheadline_mobile">Search</div>
              
                 
 <!-- ANFANG LOGIN DESKTOP/TABLET -->
                
                 <div class="content orange" id="login"> 
-                	<div class="container_headline">Login</div><!-- c: container_headline -->
+                	<div class="container_headline"><h2>Login</h2></div><!-- c: container_headline -->
+                       
                         <div class="login_data email"> 
                         	eMail: <input name="email" type="text" size="10" />
                         </div><!-- id: login_email-->
@@ -161,10 +167,10 @@
                     
                      <input class="button_login" type="button" value="Login"/>
                      
-                     <div class="login_register">Forgot Password?</div> <!-- id: login_register -->
+                     <div class="login_passwordforgotten">Forgot Password?</div> <!-- id: login_register -->
                      
                      <div id="impressum_mobile">
-                    	<div class="container_headline"> Impressum </div>
+                    	<h2>Impressum</h2>
                         <p>Sven Harders,<br />Matr.Nr.: 530764<br />
                         Projekt-Zeitleiste <br />
                         <a href="#">Dokumentation</a></p>
@@ -178,7 +184,7 @@
 <!-- ANFANG CALENDER -->   
            
                 <div class="content" id="calender"> 
-                	<div class="container_headline"> Calender </div>
+                	<div class="container_headline"><h2>Calender</h2></div>
                     
                     <div class="calender_date">Saturday, June 7</div>
                     <div class="calender_list">
@@ -198,7 +204,7 @@
 <!-- ANFANG IMPRESSUM -->
                     
                     <div id="impressum">
-                    	<div class="container_headline"> Impressum </div>
+                    	<div class="container_headline"> <h2>Impressum</h2> </div>
                         <p>Sven Harders,<br />Matr.Nr.: 530764<br />
                         Projekt-Zeitleiste <br />
                         <a href="#">Dokumentation</a></p>
@@ -216,7 +222,7 @@
                
 <!-- ANFANG NEW COVERS -->
                <div class="newCovers">
-               		<div class="newcovers_headline"> NEW COVERS </div> 
+               		<div class="newcovers_headline"><h2>NEW COVERS</h2></div> 
                     
                     	<a href="#"><img id="cover1" src="img/CoverSlider/1.jpg" alt="cover1"/></a>
                     	<a href="#"><img id="cover2" src="img/CoverSlider/2.jpg" alt="cover2"/></a>
